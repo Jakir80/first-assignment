@@ -23,21 +23,21 @@ body {
   text-align: right;
   padding-top: 250px;
   margin-right: 200px;
-  color: #ffffff;
+  color: white;
 }
 .banner-title {
   font-size: 30px;
   margin-bottom: 20px;
   line-height: 50px;
-  color: #ffffff;
+  color: white;
 }
 .banner-subtitle {
   font-size: 24px;
   margin-bottom: 25px;
-  color: #ffffff;
+  color: white;
 }
 .btn-primary {
-  background: #ffffff;
+  background: white;
   width: 160px;
   height: 64px;
   border: none;
