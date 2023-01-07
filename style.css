@@ -6,38 +6,6 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-/* my creation css for bonus mark*/
-.my-succes {
-  display: flex;
-  gap: 20📮;
-  justify-content: space-around;
-}
-.My-creation {
-  margin-top: 80px;
-}
-.my-success-subtitle {
-  font-size: 18px;
-  color: #737272;
-}
-.my-success-title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  color: #151414;
-  font-size: 25px;
-}
-.my-success-of-last-year {
-  height: auto;
-  width: auto;
-  background: rgba(79, 157, 166, 0.1);
-  border-radius: 7px;
-  padding: 40px 20px;
-  box-shadow: rgba(47, 50, 49, 0.196);
-}
-.my-success-icon img {
-  width: 100px;
-  height: 100px;
-}
-/* My creation css */
 
 /* Header section  */
 .fixed-width {
@@ -48,12 +16,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  width: 100%;
+  height: 880px;
 }
 .banner-text {
   text-align: right;
-  padding-top: 300px;
-  margin-right: 380px;
+  padding-top: 250px;
+  margin-right: 200px;
+  color: #ffffff;
 }
 .banner-title {
   font-size: 30px;
@@ -70,6 +40,7 @@ body {
   height: 64px;
   border: none;
   border-radius: 7px;
+  font-weight: 600;
 }
 .btn-primary a {
   text-decoration: none;
@@ -129,6 +100,38 @@ body {
   margin-left: 13px;
 }
 /* failur section css end */
+/* my creation css for bonus mark*/
+.my-succes {
+  display: flex;
+  gap: 20📮;
+  justify-content: space-around;
+}
+.My-creation {
+  margin-top: 80px;
+}
+.my-success-subtitle {
+  font-size: 18px;
+  color: #737272;
+}
+.my-success-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #151414;
+  font-size: 25px;
+}
+.my-success-of-last-year {
+  height: auto;
+  width: auto;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 7px;
+  padding: 40px 20px;
+  box-shadow: rgba(47, 50, 49, 0.196);
+}
+.my-success-icon img {
+  width: 100px;
+  height: 100px;
+}
+/* My creation css */
 /* my plan section started */
 .my-plan {
   margin-top: 180px;
@@ -225,15 +228,16 @@ body {
 .footer-both-side {
   display: flex;
   justify-content: space-between;
+  gap: 100px;
 }
 .footer-icon {
   display: flex;
-  gap: 60px;
+  gap: 20px;
   margin-top: 50px;
 }
 
 .footer-left-side-text {
-  margin-left: 400px;
+  margin-left: 200px;
 }
 .footer-left-side-text h1 {
   color: #f8f8f8;
@@ -247,15 +251,13 @@ body {
   line-height: 25px;
 }
 .footer-right-side {
-  margin-right: 400px;
+  margin-right: 200px;
 }
 /* footer form */
 .input {
   width: 320px;
   height: 64px;
-
   margin-bottom: 30px;
-
   border-radius: 7px;
   padding-left: 5px;
   border-color: 3px solid #ffffff;
