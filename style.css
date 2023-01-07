@@ -224,7 +224,7 @@ body {
   text-align: center;
 }
 /* watch grideiant css end */
-/* footer side  css started */
+/* footer  left side  css started */
 .footer-both-side {
   display: flex;
   justify-content: space-between;
@@ -253,6 +253,7 @@ body {
 .footer-right-side {
   margin-right: 200px;
 }
+/* footer-left-side-css-end */
 /* footer form */
 .input {
   width: 320px;
