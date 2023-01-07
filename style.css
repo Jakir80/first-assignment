@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* Header section  */
+.fixed-width {
+  max-height: 1140px;
+}
+.banner-container {
+  background: url(./images/banner/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.banner-text {
+  text-align: right;
+  padding-top: 300px;
+  margin-right: 380px;
+}
+.banner-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+.banner-subtitle {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.btn-primary {
+  background: #ffffff;
+  width: 160px;
+  height: 64px;
+  border: none;
+  border-radius: 7px;
+}
+.btn-primary a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #005fac;
+}
+/* header section close */
+/* failure section started */
+.both-side-content {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 20vh;
+}
+/* list style part */
+.right-list-style li {
+  margin: 20px;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.right-list-style h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #151414;
+  margin-left: 5px;
+}
+.right-list-style p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  line-height: 26px;
+  margin-left: 20px;
+}
+.right-list-style i {
+  color: #16d887;
+  margin-right: 10px;
+
+  width: 24px;
+  height: 24px;
+}
+
+.right-list-style {
+  margin-top: 300px;
+}
+.left-image {
+  margin-left: -20px;
+}
+.right-list-style h2 {
+  font-size: 40px;
+  margin-left: 40px;
+  margin-left: 13px;
+}
+/* failur section css end */
+/* my plan section started */
+.my-plan {
+  margin-top: 180px;
+  padding-top: 20px;
+}
+.plan-main-text h1 {
+  margin-bottom: 120px;
+
+  margin-right: 350px;
+  padding-right: 20px;
+}
+/* paln text css */
+.plan-title {
+  color: #151414;
+
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.plan-sub-title {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+/* plan text cs  end */
+.plan {
+  display: flex;
+  justify-items: center;
+  gap: 70px;
+  margin-left: 400px;
+  margin-top: 180px;
+}
+.all-details-plan {
+  text-align: center;
+  margin-left: -30px;
+}
+.my-plan h1 {
+  text-align: center;
+  margin-left: 550px;
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+/* my plan css end */
+/* watch gridient css started */
+.watch-section {
+  margin-top: 100px;
+}
+
+.watch-gridiant {
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(./images/watch.png);
+  background-repeat: no-repeat;
+  margin-left: 200px;
+  margin-right: 180px;
+  padding: 100px 615px 60px 64px;
+  border-radius: 5px;
+  margin-bottom: 200px;
+  background-size: cover;
+  height: 250px;
+}
+.watch-section {
+  margin-top: 120px;
+  margin-left: 95px;
+}
+
+.watch-title {
+  font-size: 40px;
+  margin-bottom: 24px;
+  padding-right: 50px;
+  color: #ffffff;
+  margin-top: -30px;
+}
+.watch-btn {
+  border: none;
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.watch-btn a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #005fac;
+  font-weight: 600;
+  text-align: center;
+}
+/* watch grideiant css end */
+/* footer side  css started */
+.footer-both-side {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-icon {
+  display: flex;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.footer-left-side-text {
+  margin-left: 400px;
+}
+.footer-left-side-text {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 25px;
+}
+.footer-right-side {
+  margin-right: 400px;
+}
+/* footer form */
+.input {
+  width: 320px;
+  height: 64px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 5px;
+  border-color: none;
+}
+
+.footer-section {
+  margin-top: 1100px;
+  background: black;
+  padding: 100px;
+}
+.footer-section h1,
+h4 {
+  color: white;
+  margin-bottom: 20px;
+}
+.btn-third {
+  width: 160px;
+  height: 64px;
+  background: #fff;
+  color: red;
+  border: none;
+  border-radius: 7px;
+}
+.btn-third a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #444343;
+}
+/* footer section end */
