@@ -29,10 +29,12 @@ body {
   font-size: 30px;
   margin-bottom: 20px;
   line-height: 50px;
+  color: #ffffff;
 }
 .banner-subtitle {
   font-size: 24px;
   margin-bottom: 25px;
+  color: #ffffff;
 }
 .btn-primary {
   background: #ffffff;
